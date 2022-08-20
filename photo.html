@@ -5,14 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Croissant</title>
+    <style>
+      :root {
+        --primary-color: #ffd781;
+      }
+      body {
+        margin: 0 auto;
+        max-width: 600px;
+        background: var(--primary-color);
+      }
+      h1 {
+        font-size: 40px;
+        text-align: center;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 25px;
+      }
+      .buttons {
+        display: flex;
+        justify-content: center;
+      }
+      .buttons div {
+        margin: 10px 15px;
+      }
+      a {
+        font-size: 19px;
+        text-decoration: none;
+        color: #614400;
+        transition: all 100ms ease-in-out;
+      }
+      a:hover {
+        text-decoration: 3px underline wavy rgb(217, 134, 255);
+      }
+    </style>
   </head>
   <body>
     <h1>🥐Photos of Croissant</h1>
     <img
       width="500"
       alt="croissant"
-      src="https://www.optilingo.com/wp-content/uploads/2019/01/211062667.jpg"
+      src="/img/croissant.png"
     />
+    <hr color="#fff" />
     <div class="buttons">
       <div><a href="/">Home</a></div>
       <div><a href="/photo.html">Photo</a></div>

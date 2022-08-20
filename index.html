@@ -5,6 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Croissant</title>
+    <style>
+      :root {
+        --primary-color: #ffd781;
+      }
+      body {
+        margin: 0 auto;
+        max-width: 600px;
+        background: var(--primary-color);
+      }
+      h1 {
+        font-size: 40px;
+      }
+      h1,
+      p {
+        text-align: center;
+      }
+      p {
+        font-size: 19px;
+      }
+      .buttons {
+        display: flex;
+        justify-content: center;
+      }
+      .buttons div {
+        margin: 10px 15px;
+      }
+      a {
+        font-size: 19px;
+        text-decoration: none;
+        color: #614400;
+        transition: all 100ms ease-in-out;
+      }
+      a:hover {
+        text-decoration: 3px underline wavy rgb(217, 134, 255);
+      }
+    </style>
   </head>
   <body>
     <h1>🥐Your Croissant</h1>
@@ -13,6 +49,7 @@
       the shape of the Austrian kipferl but using the French yeast-leavened
       laminated dough.
     </p>
+    <hr color="#fff" />
     <div class="buttons">
       <div><a href="/">Home</a></div>
       <div><a href="/photo.html">Photo</a></div>
